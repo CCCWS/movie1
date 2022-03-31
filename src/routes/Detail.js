@@ -37,7 +37,7 @@ function Detail() {
 
   return (
     <>
-      <Link to="/">Go Home</Link>
+      <Link to="/movie1">Go Home</Link>
       <h1>{title}</h1>
       <hr />
       <div className="infoBox">
