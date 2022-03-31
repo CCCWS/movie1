@@ -56,7 +56,6 @@ function Home() {
 
   const tes1t = movie.map((data) => data.title);
 
-  console.log(movie);
   return (
     <>
       {" "}

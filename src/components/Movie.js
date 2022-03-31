@@ -19,7 +19,7 @@ function Movie({
       <div className="movieDiv">
         <img src={image} alt="image" />
         <div>
-          <Link className="title" to={`/movie/${id}/${title}`}>
+          <Link className="title" to={`/${id}/${title}`}>
             {title}
           </Link>
           {/* <a className="movieTitle" href={url}>

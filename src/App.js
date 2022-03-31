@@ -17,14 +17,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
-        <Route
-          path={`${process.env.PUBLIC_URL}/movie/:id/:title`}
-          element={<Detail />}
-        />
+        <Route path="/" element={<Home />} />
+        <Route path="/:id/:title" element={<Detail />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
 export default App;
